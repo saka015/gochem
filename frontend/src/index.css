@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Nunito:wght@200;400&family=Quicksand:wght@300;700&family=Raleway:ital,wght@0,100;0,300;1,100;1,200;1,300&family=Young+Serif&display=swap");
+* {
+  font-family: Nunito;
+}
+
+::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1.5;
+  background: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+/* Styling the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+   --tw-text-opacity: 1;
+    background: rgb(74 222 128 / var(--tw-text-opacity));
+}
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 5px; /* Height of the thumb */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb background color on hover */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb background color on hover */
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track background color */
+  border: 1px solid #ccc; /* Add a border to the track */
+}
+
+
+
+li {
+  font-family: Nunito;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-main {
+  padding: 10px 15px;
+  font-size: 0.72rem;
+  color: white;
+  border-radius:20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.btn-main:hover{
+  opacity: 0.8;
+}
+.btn-main:active{
+  opacity: 0.5;
+}
+
+.footer{
+  border-radius: 50px 50px 0 0;
+}
+
+.contact-now{
+  padding: 10px 15px;
+  color: white;
+  border-radius: 50px;
+
+}
+
+.contact-now:hover{
+  background-color: transparent;
+  border: 1px solid green;
+}
