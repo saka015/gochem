@@ -69,7 +69,7 @@ const Home = () => {
           <img src={svg} alt="" />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
